@@ -6,3 +6,5 @@ group[1].age = 22;
 console.log(students);
 console.log(group);
 
+
+students.map(array => {return {...array}});
