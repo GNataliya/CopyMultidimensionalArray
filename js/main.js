@@ -7,4 +7,17 @@ console.log(students);
 console.log(group);
 
 
-students.map(array => {return {...array}});
+
+let group2 = students.map(array => {return {...array}});
+group2[1].age = 22;
+
+console.log(students);
+console.log(group);
+
+
+
+let group3 = jQuery.extend(true, { }, students);
+group3[1].age = 22;
+
+console.log(students);
+console.log(group);
